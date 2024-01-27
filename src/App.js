@@ -3,13 +3,16 @@ import React from 'react';
 import Pizza from './components/pizza';
 import Menu from './components/menu';
 import './App.css';
+import Navbar from './components/navbar.js';
 
 function App() {
   return(
     <div className="App">
+      <Navbar/>
       <Pizza/>
       <Menu/>
     </div>
+    
   );
 }
 
